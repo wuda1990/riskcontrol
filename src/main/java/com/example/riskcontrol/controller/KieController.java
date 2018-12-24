@@ -14,15 +14,19 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by sunpeak on 2016/8/6.
+ * IT is a test.
  */
 @RestController
 @RequestMapping("/kie")
+
 public class KieController {
 
     private static Logger logger = LoggerFactory.getLogger(KieController.class);
 
     @Autowired
     private KieService kieService;
+
+
 
 
     @RequestMapping(value = "/addRule", method = RequestMethod.GET)
